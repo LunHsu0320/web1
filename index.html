@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>醉浪日記DiaryCS</title>
+    <style>
+        header {
+            position: relative;
+            /*位置 相對位置 起始點物件左上角*/
+        }
+
+        header h1 {
+            background-image: url(./assets/banner_bg.png);
+            /*導入圖片*/
+            background-repeat: no-repeat;
+            /*背景圖片不重複*/
+            background-position: center;
+            /*背景圖片置中*/
+            background-size: cover;
+            /*背景圖片不會縮放*/
+            height: 240px;
+            /*畫面高度*/
+            border-radius: 1em;
+            /*圓角*/
+            margin: .5em;
+
+        }
+
+        header em {
+            position: absolute;
+            /*絕對位置*/
+            left: 1.5em;
+            /*左邊開始*/
+            top: 4em;
+            /*上面開始*/
+            letter-spacing: .2em;
+            /*字距*/
+            color: aliceblue;
+            
+        }
+
+        body {
+            background-color: #33A6B8;
+            /*body background color*/
+        }
+
+        main {
+            margin: 0 10%;
+        }
+
+        /*清除元素的浮動(floating)效果*/
+        main:after {
+            content: " ";
+            display: block;
+            clear: both;
+        }
+
+        main section {
+            background-color: rgba(255, 255, 255, .2);
+            float: left;
+            box-sizing: border-box;
+            width: 33%;
+            padding: 1em;
+            height: 600px;
+            color: rgba(0, 0, 0, 0.7);
+            line-height: 1.5em;
+        }
+        main section div{
+            text-align: left;
+        }
+        main section h3{
+            color: black;
+        }
+
+        footer {
+            margin: 2em 0;
+            text-align: center;
+            font-size: small;
+            color: #ffffff80;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1><em>醉浪日記DiaryCS</em></h1>
+
+
+    </header>
+    <main>
+        <section id="date1">
+            <div><img src="./assets/pexels-alexandre-saraiva-carniato-1497768.jpg" alt="日期：2023/04/10" width="" height="100"></div>
+            <h3>日期：2023/04/10</h3>
+            
+            <p>
+                今天是個絕佳的衝浪日！天空晴朗，風和日麗，波浪也非常適合衝浪。我和幾位衝浪好友一起來到了南灣海灘。當我走進海水中，身體被涼爽的海水包圍，我感覺很舒服。當第一個波浪來襲時，我立刻跳上我的衝浪板。我盡全力掌握平衡，並在波浪上狂飆。當我成功地騎上了一個大浪時，我興奮地尖叫。今天的衝浪經驗真是太棒了！
+            </p>
+        </section>
+        <section id="date2">
+            <div><img src="./assets/pexels-avishag-bohbot-687459.jpg" alt="日期：2023/03/20" width="" height="100"></div>
+            <h3>日期：2023/03/20</h3>
+            
+            <p>
+                今天的海灘非常熱鬧！許多人都在享受海灘的美好時光。然而，我卻發現了一些不同尋常的事情。當我跳上我的衝浪板，我發現水中有一些垃圾和塑料袋。這些污染物不僅對海洋生物有害，也會破壞我們的衝浪體驗。我和其他衝浪者一起清理了海灘上的垃圾，希望可以保持海灘的美好。今天的衝浪體驗提醒我們，我們應該要保護我們的地球，這樣才能繼續享受這美好的運動和自然。
+            </p>
+        </section>
+        <section id="date3">
+            <div><img src="./assets/pexels-jeremy-bishop-2923596.jpg" alt="日期：2023/02/16" width="" height="100"></div>
+            <h3>日期：2023/02/16</h3>
+            
+            <p>
+                今天早上起床的時候，發現天氣非常好，於是我立刻決定去衝浪！到了海邊，發現海浪很不錯，但是也很挑戰技巧。我跟幾個朋友一起進入海中，拿起我的Channel Islands
+                Flyer衝浪板，開始了我們的衝浪之旅。雖然起初有些困難，但最後我們都享受了美妙的海浪和陽光，真是一次難忘的經驗。
+            </p>
+        </section>
+
+    </main>
+    <footer>
+        所有內容版權&copy; 2023，醉浪。
+    </footer>
+
+</body>
+
+</html>
